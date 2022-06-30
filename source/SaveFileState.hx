@@ -83,9 +83,9 @@ class SaveFileState extends MusicBeatState
 
 		if (!selectedSomething)
 		{
-			if (controls.UP_P)
+			if (controls.UI_UP_P)
 				changeSelection(-1);
-			if (controls.DOWN_P)
+			if (controls.UI_DOWN_P)
 				changeSelection(1);
 
 			if (controls.ACCEPT)
