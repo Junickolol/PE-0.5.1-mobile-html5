@@ -406,6 +406,9 @@ class TitleState extends MusicBeatState
 		{
 			FlxG.fullscreen = !FlxG.fullscreen;
 		}
+                if (controls.BACK) { 
+                   MusicBeatState.switchstate(new SaveFileState());
+                }
 
 		var pressedEnter:Bool = FlxG.keys.justPressed.ENTER || controls.ACCEPT;
 
