@@ -137,7 +137,7 @@ class Highscore
 	{
 		if (SaveFileState.saveFile.data.weekScores != null)
 		{
-			weekScores = SaveFileState.saveFile.datal.weekScores;
+			weekScores = SaveFileState.saveFile.data.weekScores;
 		}
 		if (SaveFileState.saveFile.data.songScores != null)
 		{
